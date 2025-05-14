@@ -47,17 +47,20 @@ license {
 
 prebuilt_font {
     name: "NotoNaskhArabic-Bold.ttf",
-    src: "NotoNaskhArabic-Bold.ttf",
+    src: "font/1.070/NotoNaskhArabic-Bold.ttf",
 }
 
-prebuilt_font {
+prebuilt_versioned_font {
     name: "NotoNaskhArabic-Regular.ttf",
-    src: "NotoNaskhArabic-Regular.ttf",
+    fontFile: "NotoNaskhArabic.ttf",
+    versionFlag: "RELEASE_PACKAGE_NOTO_NASKH_ARABIC_VERSION",
+    defaultVersion: "1.070",
 }
 
-filegroup {
+versioned_font_config {
     name: "NotoNaskhArabic",
-    srcs: ["font_config.json"],
+    defaultVersion: "1.070",
+    versionFlag: "RELEASE_PACKAGE_NOTO_NASKH_ARABIC_VERSION",
     required: [
         "NotoNaskhArabic-Bold.ttf",
         "NotoNaskhArabic-Regular.ttf",

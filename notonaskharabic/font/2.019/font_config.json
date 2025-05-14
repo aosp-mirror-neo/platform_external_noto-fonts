@@ -1,0 +1,13 @@
+[
+    {
+        "lang": "und-Arab",
+        "variant": "elegant",
+        "fonts": [
+            {
+                "file": "NotoNaskhArabic-Regular.ttf",
+                "supportedAxes": "wght",
+                "style": "normal"
+            }
+        ]
+    }
+]

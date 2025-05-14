@@ -1,0 +1,14 @@
+[
+    {
+        "lang": "und-Laoo",
+        "variant": "elegant",
+        "fonts": [
+            {
+                "file": "NotoSansLao-Regular.ttf",
+                "supportedAxes": "wght",
+                "style": "normal"
+            }
+        ],
+        "id": "NotoSansLao_und-Laoo"
+    }
+]

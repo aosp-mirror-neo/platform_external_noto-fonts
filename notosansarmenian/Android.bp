@@ -45,9 +45,11 @@ license {
     ],
 }
 
-prebuilt_font {
+prebuilt_versioned_font {
     name: "NotoSansArmenian-VF.ttf",
-    src: "NotoSansArmenian-VF.ttf",
+    fontFile: "NotoSansArmenian-Regular.ttf",
+    versionFlag: "RELEASE_PACKAGE_NOTO_SANS_ARMENIAN_VERSION",
+    defaultVersion: "2.005",
 }
 
 filegroup {

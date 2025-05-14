@@ -45,9 +45,11 @@ license {
     ],
 }
 
-prebuilt_font {
+prebuilt_versioned_font {
     name: "NotoSansDevanagari-VF.ttf",
-    src: "NotoSansDevanagari-VF.ttf",
+    fontFile: "NotoSansDevanagari-Regular.ttf",
+    versionFlag: "RELEASE_PACKAGE_NOTO_SANS_DEVANAGARI_VERSION",
+    defaultVersion: "2.000",
 }
 
 filegroup {

@@ -1,0 +1,14 @@
+[
+    {
+        "lang": "und-Mymr",
+        "variant": "elegant",
+        "fonts": [
+            {
+                "file": "NotoSansMyanmar-Regular.otf",
+                "style": "normal",
+                "supportedAxes": "wght"
+            }
+        ],
+        "id": "NotoSansMyanmar_und-Mymr"
+    }
+]
