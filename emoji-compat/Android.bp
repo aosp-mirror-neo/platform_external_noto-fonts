@@ -54,6 +54,7 @@ prebuilt_font {
     src: select(release_flag("RELEASE_PACKAGE_EMOJI_FONT_VERSION"), {
         "2.042": "font/2.042/Noto-COLRv1-noflags.ttf",
         "2.047": "font/2.047/Noto-COLRv1-noflags.ttf",
+        "2.051": "font/2.051/Noto-COLRv1-noflags.ttf",
         default: "font/2.047/Noto-COLRv1-noflags.ttf",
     }),
 }
@@ -74,7 +75,7 @@ prebuilt_font {
 
 prebuilt_font {
     name: "NotoColorEmojiLegacy.ttf",
-    src: "font/2.047/NotoColorEmoji-noflags.ttf",
+    src: "font/2.051/NotoColorEmoji-noflags.ttf",
     dist: {
         targets: ["droidcore"],
     },
